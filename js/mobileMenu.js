@@ -1,0 +1,1 @@
+function menuShow(){let e=document.querySelector(".mobile-menu");e.classList.contains("open")?(e.classList.remove("open"),document.querySelector(".icon").setAttribute("name","menu-outline")):(e.classList.add("open"),document.querySelector(".icon").setAttribute("name","close-circle-outline"))}
